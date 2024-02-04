@@ -112,7 +112,7 @@ const HomeScreen = () => {
               style={styles.productContainer}
               activeOpacity={0.7}
               onPress={() => navigateToProductPage(item)}>
-              <Image source={{uri: item.thumbnail}} style={styles.image} />
+              <Image source={{uri:item.thumbnail}} style={styles.image} />
               <Text numberOfLines={2} style={styles.title}>
                 {item.title}
               </Text>
